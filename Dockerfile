@@ -1,4 +1,4 @@
-FROM node:12.7-alpine AS build
+FROM node:10.16.2-alpine
 WORKDIR /angular-seed-master
 COPY package.json package-lock.json ./
 RUN npm install
